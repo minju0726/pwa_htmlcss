@@ -1,0 +1,10 @@
+.food-list{
+    /* list-style-type: 불릿의 타입설정 */
+    /* list-style-type: none; */
+    /* list-style-type: decimal; 숫자 */
+    /* list-style-type: lower-alpha; 소문자 */
+    /* list-style-type: upper-alpha; 대문자 */
+    /* list-style-position: 목록의 들여쓰기 여부 지정 */
+    /* list-style-position: inside; */
+    /* list-style-image: url('../img/cat.jpg'); */
+}

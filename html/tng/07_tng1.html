@@ -47,14 +47,17 @@
 </fieldset>    
     <fieldset>
     <legend>이벤트와 새로운 소식</legend>
-        <input type="radio" name="mail" id="mail">
-        <label for="mail">메일 수신</label>
-        <input type="radio" name="mail" id="nomail" checked>
-        <label for="nomail">메일 수신 안 함</label>
+        <input type="radio" name="agreeFlg" id="agreeFlgTrue" value="1">
+        <label for="agreeFlgTrue">메일 수신</label>
+        <input type="radio" name="agreeFlg" id="agreeFlgFalse" value="0">
+        <label for="agreeFlgFalse">메일 수신 안 함</label>
         <!-- 같은 input type 일때 name 이 같아야함 -->
+        <!-- for와 id 값은 같음 -->
     </fieldset>
     <button type="submit">가입하기</button>
     <button type="reset">취소</button>
     </form>
+    <!-- 스네이크 기법 : 단어와 단어 사이에 `_`로 연결, user_email -->
+     <!-- 카멜 기법 : 연결되는 단어의 첫글자를 대문자로 작성, userEamil -->
 </body>
 </html>
