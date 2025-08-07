@@ -1,0 +1,37 @@
+		main, div {
+			padding: 20px;
+		}
+		main {
+			background-color: rgb(241, 164, 181);
+			width: 300px;
+		}
+		.div-static {
+			background-color: rgb(119, 136, 153);
+			position: static;
+		}
+		.div-relative {
+			background-color: rgb(133, 211, 146);
+			position: relative;
+			top: 30px;
+			left: 50px;
+		}
+    .div-absolute{
+      background-color: cadetblue;
+      /* 나의 상위요소 중 relative가 지정된 요소를 기준으로 움직인다. */
+      /* 상위 요소 중 relative가 없으면, body가 기준 */
+      position: absolute;
+      top: 0;
+    }
+    .div-fixed{
+      background-color: crimson;
+      /* 뷰포트를 기준으로 특정위치를 지정 */
+      position: fixed;
+      right: 40px;
+      bottom: 40px;
+    }
+    .div-sticky{
+      background-color: beige;
+      /* 자신의 위치가 화면 밖으로 벗어날 경우, 지정한 위치에 고정되어 표시 */
+      position: sticky;
+      top: 0;
+    }

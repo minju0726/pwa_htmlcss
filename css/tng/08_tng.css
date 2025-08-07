@@ -1,0 +1,21 @@
+.position1{
+  position: absolute;
+   border: 1px solid #000;
+  width: 200px;
+  height: 200px;
+}
+.position2{
+  position: absolute;
+  top: 300px;
+   border: 1px solid #000;
+  width: 200px;
+  height: 200px;
+}
+.position3{
+  position: absolute;
+  left: 300px;
+  top: 50px;
+   border: 1px solid #000;
+  width: 200px;
+  height: 200px;
+}
